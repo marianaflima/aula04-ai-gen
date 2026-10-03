@@ -1,0 +1,16 @@
+# Python-generated files
+.gitignore
+.venv
+.env
+.ai-jail
+dados/
+logs/
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
