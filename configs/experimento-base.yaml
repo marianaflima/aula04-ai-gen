@@ -1,0 +1,20 @@
+projeto:
+  nome: slms-sustentaveis-labia
+  versao: 0.1.0
+  idioma: pt-BR
+
+reprodutibilidade:
+  seeds: [13, 29, 47]
+  repeticoes_por_cenario: 3
+
+geracao:
+  temperatura: 0.2
+  top_p: 0.9
+  max_tokens_resposta: 512
+
+tarefas:
+  - id: qa_factual
+  - id: resumo_tecnico
+  - id: classificacao_tematica
+  - id: texto_formal
+

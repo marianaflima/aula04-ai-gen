@@ -1,8 +1,8 @@
 # aula04-ai-gen
 
 > **Disciplina:** IA Generativa — FACAPE
-> **Aluno(a):** [Seu Nome]
-> **Professor(a):** [Nome do Professor]
+> **Aluno(a):** Mariana Félix de Lima
+> **Professor(a):** Mateus Amorim
 > **Atividade:** Laboratório de baseline de geração com LLMs (LabIA)
 
 Projeto desenvolvido como tarefa da disciplina de IA Generativa. É um **laboratório de baseline**
@@ -166,6 +166,9 @@ criatividade/respostas do modelo a cada chamada.
    ```bash
    python3 main.py
    ```
+
+## Uso de IA
+Deixo registrado que utilizei IA para fins de analisar o projeto e gerar essa documentação do README, al. 
 
 Dica: rode duas vezes com temperaturas diferentes e compare o campo `saida`
 dos registros em `logs/baseline_lab.json`.
