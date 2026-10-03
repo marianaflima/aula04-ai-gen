@@ -2,7 +2,7 @@ import importlib
 import platform
 import sys
 
-obrigatorios = ["openai", "tiktoken", "dotenv","rich", "sklearn", "pyyaml", "groq"]
+obrigatorios = ["openai", "tiktoken", "dotenv","rich", "sklearn", "groq"]
 
 print(f"Python {sys.version.split()[0]}"
       f"({platform.machine()})")
