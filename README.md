@@ -167,8 +167,10 @@ criatividade/respostas do modelo a cada chamada.
    python3 main.py
    ```
 
+Dica: rode duas vezes com temperaturas diferentes e compare o campo `saida`
+dos registros em `logs/baseline_lab.json`.
+
+
 ## Uso de IA
 Deixo registrado que utilizei IA para fins de analisar o projeto e gerar essa documentação do README, al. 
 
-Dica: rode duas vezes com temperaturas diferentes e compare o campo `saida`
-dos registros em `logs/baseline_lab.json`.
