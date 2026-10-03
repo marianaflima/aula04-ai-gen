@@ -32,10 +32,10 @@ def registrar_log(resp, n_in: float, custo: float, t0: float, t1: float):
     else:
         dados = []
 
-    dados.append(registro_path)
+    dados.append(registro)
 
     with open(registro_path, "w") as f:
-        json.dump(registro, f, ensure_ascii=False, indent=2)
+        json.dump(dados, f, ensure_ascii=False, indent=2)
 
 def custo_chamada(hist: list[dict], resp, preco_in=0.15, preco_out=0.60):
     n_in = 0
