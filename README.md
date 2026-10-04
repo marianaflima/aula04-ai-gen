@@ -152,20 +152,7 @@ criatividade/respostas do modelo a cada chamada.
 
 ### Como criar novos experimentos
 
-1. Copie o arquivo base:
-   ```bash
-   cp configs/experimento-base.yaml configs/meu-experimento.yaml
-   ```
-2. Ajuste os parâmetros (ex.: mude a `temperatura` para comparar respostas).
-3. Aponte o caminho do novo arquivo em `baseline_lab.py`, dentro de
-   `chamar_modelo()`:
-   ```python
-   config_path = Path("configs/meu-experimento.yaml")
-   ```
-4. Rode novamente:
-   ```bash
-   python3 main.py
-   ```
+Basta acessar `configs/experimento-base.yaml` e ajustar conforme necessário
 
 Dica: rode duas vezes com temperaturas diferentes e compare o campo `saida`
 dos registros em `logs/baseline_lab.json`.
