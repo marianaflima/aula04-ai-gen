@@ -9,7 +9,8 @@ def main():
     with open(config_path) as f:
         cfg = yaml.safe_load(f)
 
-    repeticoes = cfg["repeticoes_por_cenario"]
+    repr = cfg["reprodutibilidade"]
+    repeticoes = repr["repeticoes_por_cenario"]
 
     print("=" * 60)
     print("Inicialização do programa")
